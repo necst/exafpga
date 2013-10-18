@@ -1,0 +1,168 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  background-color: black;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #222222;
+  margin-top: 60px;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+.compilers {
+  background-image: url(../../img/lacbig.png);
+  background-position: center;
+  background-size: 100%;
+}
+
+.architectures {
+  background-image: url(../../img/ca.jpg);
+  background-position: center;
+  background-size: 100%;
+}
+
+.runtimed {
+  background-image: url(../../img/osr.jpg);
+  background-position: center;
+  background-size: 100%;
+}
+
+.runtimet {
+  background-image: url(../../img/osr.jpg);
+  background-position: center;
+  background-size: 100%;
+}
+
+.runtimes {
+  background-image: url(../../img/osrs.jpg);
+  background-position: center;
+  background-size: 100%;
+}
+
+.peopled {
+  background-image: url(../../img/lego.jpg);
+  background-position: center;
+  background-size: 100%; 
+}
+
+.gray-background {
+  background-color: rgba(51,51,51,0.8);
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+/* Smartphones */
+@media (max-width: 480px) { 
+  .smartphone {
+    display: block;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .desktop {
+    display: none;
+  }
+}
+ 
+/* Tablets */
+@media (min-width: 481px) and (max-width: 959px) {
+  .smartphone {
+    display: none;
+  }
+
+  .tablet {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 960px) { 
+  .smartphone {
+    display: none;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+}
